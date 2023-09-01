@@ -1,5 +1,5 @@
 /* Write your CSS code here. */
-.feedback-container {
+.app-container {
   background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
   height: 100vh;
   display: flex;
@@ -26,7 +26,7 @@
   }
 }
 
-.question-container {
+.feedback-question-container {
   display: flex;
   flex-direction: column;
 }
@@ -45,7 +45,7 @@
   }
 }
 
-.list {
+.emojis-list {
   list-style-type: none;
   display: flex;
   justify-content: space-around;
@@ -53,27 +53,27 @@
   margin-top: 30px;
 }
 
-.button {
+.emoji-btn {
   border: none;
   background-color: #ffffff;
   cursor: pointer;
   outline: none;
 }
 
-.image-alt {
+.emoji {
   width: 45px;
   height: 45px;
   margin-bottom: 16px;
 }
 
 @media screen and (min-width: 768px) {
-  .image-alt {
+  .emoji {
     width: 70px;
     height: 70px;
   }
 }
 
-.name {
+.emoji-name {
   font-size: 14px;
   font-family: 'Roboto';
   color: #1e293b;
@@ -81,7 +81,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .name {
+  .emoji-name {
     font-size: 15px;
   }
 }
@@ -93,23 +93,19 @@
   align-items: center;
 }
 
-.imageLove {
+.love-emoji {
   width: 60px;
   height: 60px;
-  justify-content: center;
-  align-content: center;
 }
 
 @media screen and (min-width: 768px) {
-  .imageLove {
+  .love-emoji {
     width: 80px;
     height: 75px;
-    display: flex;
-    align-content: center;
   }
 }
 
-.heading-thankyou {
+.thank-you-text {
   color: #0f172a;
   font-size: 24px;
   font-family: 'Roboto';
@@ -118,12 +114,12 @@
 }
 
 @media screen and (min-width: 768px) {
-  .heading-thankyou {
+  .thank-you-text {
     font-size: 32px;
   }
 }
 
-.para {
+.description {
   color: #1e293b;
   font-size: 16px;
   font-family: 'Roboto';
@@ -132,7 +128,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .para {
+  .description {
     font-size: 20px;
   }
 }
